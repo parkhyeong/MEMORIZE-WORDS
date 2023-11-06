@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Sign_Up_Form">
+
+    <EditText
+        android:id="@+id/ID_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/PW_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor" />
+
+    <EditText
+        android:id="@+id/PW_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Name_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/nickname_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/NickName_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/email_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/nickname_TB_R"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/tel_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/birth_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/email_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:privateImeOptions="defaultInputmode=english"
+        android:text="@string/Email_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/targetS_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/email_TB_R"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/tel_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Tel_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/birth_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/tel_TB_R"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:privateImeOptions="defaultInputmod=korean"
+        android:text="@string/Name_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/tel_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/Name_TB_R"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:id="@+id/email_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:privateImeOptions="defaultInputmod=english"
+        app:layout_constraintBottom_toTopOf="@+id/targetS_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/ID_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/ID_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/PW_R"
+        app:layout_constraintEnd_toStartOf="@+id/ID_TB_R"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/birth_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Birth_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/nickname_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/birth_TB_R"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/nickname_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/email_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/Name_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/tel_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/targetS_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="171dp"
+        android:text="@string/TargetScore_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/targetS_TB_R"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/targetS_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/regist_btn_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/PW_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/PW_T"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/name_T_R"
+        app:layout_constraintEnd_toStartOf="@+id/PW_TB_R"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/regist_T_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/register_T"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/regist_btn_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:onClick="insert"
+        android:text="@string/register_T"
+        android:backgroundTint="#A9BFFF"
+        android:textColor="#FFFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/birth_TB_R"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/nickname_TB_R"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,LabelFor"
+        android:importantForAutofill="no" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:background="@color/sky"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="VOCA"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

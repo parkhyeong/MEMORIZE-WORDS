@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_admin">
+
+    <TextView
+        android:id="@+id/Main_text"
+        android:layout_width="203dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="104dp"
+        android:text="Admin_Menu"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/voca_del_button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#A9BFFF"
+        android:textColor="#FFFAFA"
+        android:text="영단어 제거"
+        app:layout_constraintBottom_toTopOf="@+id/information_inquiry_button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#A9BFFF"
+        android:text="로그아웃"
+        android:textColor="#FFFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Main_text"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <Button
+        android:id="@+id/information_inquiry_button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#A9BFFF"
+        android:text="회원정보 조회"
+        android:textColor="#FFFAFA"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/voca_add_button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#A9BFFF"
+        android:text="영단어 추가"
+        android:textColor="#FFFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/voca_note"
+        app:layout_constraintEnd_toStartOf="@+id/voca_del_button"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/voca_note"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#A9BFFF"
+        android:text="단어장"
+        android:textColor="#FFFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/information_inquiry_button"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

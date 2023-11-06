@@ -1,0 +1,38 @@
+vitamin/비타민/35/2/★
+pill/알약,정제/36/1/★
+medicine/의학,의술,의료,약,약물/33/0/★
+drug/약물,마약,의약품,약/36/3/★
+algorithm/알고리즘/31/3/★★
+encrypt/암호화하다/37/8/★★★
+instant/즉각적인,인스턴트의,순간/41/5/★★
+defect/결함/38/9/★★
+fault/잘못,책임,단점,결점/65/3/★
+garage/차고,주차장/52/4/★
+patron/후원자,홍보대사,고객/49/7/★★
+budget/예산,비용/32/2/★★
+finance/재원,자금,재정,재무/36/3/★★★
+estimate/추정,추정치,추산,견적서,추산하다,추정하다/42/11/★★★
+establish/설립하다,수립하다/51/10/★★
+vehicle/차량,탈것,운송수단/52/7/★★
+corporate/법인의/0/0/★★★
+corporation/법인의/0/0/★★
+compartment/구획,칸막이/0/0/★★★
+upon request/요청 시에/0/0/★★
+manage/~을 경영하다,가까스로 하다/0/0/★★
+manage to do/가까스로 ~하다/0/0/★★
+be reminded to do/~할 것을 잊지 않도록 주의받다/0/0/★★★
+instruct/지시하다,가르치다/0/0/★
+sample/(견본으로)시험하다,시식하다/0/0/★★
+well-deserved advancement/응당한 승진/0/0/★★★
+press release/보도 자료/0/0/★★
+extension/연장,(전화의)내선/0/0/★★
+delegate/(권한 등을) 위임하다,대표/0/0/★★★
+attentively/주의깊게,조심스럽게/0/0/★★
+acquaint/~에게 숙지시키다/0/0/★★
+file a claim/(보험금 등을) 청구하다/0/0/★★★
+lax/(행동 등이)느슨한/0/0/★
+in duplicate/두 통으로/0/0/★★★
+neutrality/중립성,중립/0/0/★★
+outstanding/	우수한,(부채 등이) 미지불된/0/0/★★★
+outline/개요,설명하다/0/0/★
+contain/포함하다,감정을 억누르다/0/0/★★
